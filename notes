@@ -1,0 +1,10 @@
+Note: The validation and session management is most always going to be the exact same steps
+
+
+Logging In:
+Has three possible outcomes:
+1. The email the user inputted isnt in our database. RESULT: Send the user back to the form
+2. there is an account with the email given but the password is not matching the one saved in the database. RESULT: Send the user back to the form
+3. the email the user inputted is correct and the password the user inputted matches the one in the database.
+
+Session is persistent data that I can use in all my routes as long as my session is validation
